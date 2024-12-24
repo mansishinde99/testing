@@ -1,0 +1,122 @@
+.login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login .left-page {
+  width: 50%;
+  height: 100vh;
+  background-color: #00538d;
+  color: #fff;
+}
+
+.login .left-page h1{
+  color: #04ADEB;
+  font-size: 4vw;
+  text-align: start;
+  padding-left: 1vw;
+  margin: 4vw 0 0;
+}
+
+.login .left-page p{
+  color: #fff;
+  font-size: 2vw;
+  text-align: start;
+  padding-left: 1vw;
+  margin-top: 1vw;
+}
+
+.login .left-page img{
+    width: 30vw;
+   margin-top: 5vw;
+    border-radius: 50%;
+  }
+
+.login .right-page {
+  align-content: center;
+  width: 50%;
+}
+
+.login .choices {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  margin: 0 16.5vw 2vw;
+}
+
+.login .choices button {
+  font-size: 1.3vw;
+  font-weight: 550;
+  border: none;
+  border-radius: 2vw;
+  padding: 1vw 2vw;
+  cursor: pointer;
+  border: .1vw solid;
+}
+
+.login form {
+  align-content: center;
+  margin: 0 13vw;
+}
+
+.login form .login-details {
+ text-align: start;
+}
+
+.loginvia{
+  margin-bottom: 4vw;
+}
+
+.login form .login-details .detail{
+  font-size: 1.5vw;
+}
+
+
+.login form input{
+  border: none;
+  border-bottom: .1vw solid;
+  outline: none;
+  width: 25vw;
+  font-size: 1vw;
+  letter-spacing: .1vw;
+}
+
+.login form .country-code{
+  display: flex;
+}
+
+.country-code select{
+  border: none;
+  border-bottom: .1vw solid;
+  margin-right: 1vw;
+  width: 4vw;
+  outline: none;
+}
+
+.acc{
+  text-align: start;
+  margin: 0;
+}
+
+.acc .signup{
+  color: #00538d;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.login form button {
+  font-size: 1.3vw;
+  font-weight: 550;
+  border: none;
+  border-radius: 2vw;
+  padding: 1vw 5vw;
+  margin-top: 2vw;
+  cursor: pointer;
+  border: .1vw solid;
+  background-color: #00538d;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+

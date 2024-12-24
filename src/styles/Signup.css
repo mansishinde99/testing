@@ -1,0 +1,90 @@
+.signup{
+    background-color: #00538d;
+    height: 100vh;
+}
+
+.signup h1{
+    color: #fff;
+    padding: 2vw 0;
+    margin: 0;
+}
+
+.signup form{
+    width: 25%;
+    height: 74vh;
+    border: .1vw solid;
+    padding: 2vw;
+    margin: 2vw 36vw;
+    background-color: #fff;
+    border-radius: 2vw;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.signup form .fields p{
+    font-size: 1.5vw;
+    padding-left: 1.5vw;
+    text-align: start;
+}
+
+.signup form .fields input{
+    border: .1vw solid;
+    padding: .8vw;
+    border-radius: 1vw;
+    width: 22vw;
+    margin-right: -1vw;
+    outline: none;
+}
+
+.signup form .next-buttons{
+    margin: 3vw 6vw 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup form .next-buttons button{
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+    border: .1vw solid;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 1.4vw;
+    width: 13vw;
+}
+
+.signup form .next-buttons button:hover{
+    background-color: #00538d;
+    color: #fff;
+}
+
+table{
+    width: 100%;
+}
+
+thead{
+    background-color: #00538d;
+    color: #fff;
+}
+
+tbody{
+    background-color: #66befd;
+    color: #fff;
+}
+
+td{
+    height: 2vw;
+}
+
+.edit-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button{
+    color: rgb(190, 0, 0);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
